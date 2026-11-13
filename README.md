@@ -66,7 +66,7 @@ Used to review publicly available registration details, registrar information, r
 
 **Evidence**
 
-![WHOIS lookup](screenshots/Screenshot%201.png)
+![WHOIS lookup](Screenshot 1.png)
 
 ### 2. Additional WHOIS output
 
@@ -74,7 +74,7 @@ The second capture records further WHOIS information returned by the lookup.
 
 **Evidence**
 
-![Additional WHOIS output](screenshots/Screenshot%202.png)
+![Additional WHOIS output](screenshot 2.png)
 
 ### 3. Website technology fingerprinting with WhatWeb
 
@@ -86,7 +86,7 @@ Used to identify technologies and metadata exposed by the website. The captured 
 
 **Evidence**
 
-![WhatWeb output](screenshots/Screenshot%203.png)
+![WhatWeb output](screenshot 3.png)
 
 ### 4. DNS resolution with Nslookup
 
@@ -98,7 +98,7 @@ The captured result resolves `networkwalks.com` to `192.232.216.135`.
 
 **Evidence**
 
-![Nslookup output](screenshots/Screenshot%204.png)
+![Nslookup output](screenshot 4.png)
 
 ### 5. HTTP response headers with cURL
 
@@ -110,7 +110,7 @@ The captured response shows an HTTP `200` status and response-header information
 
 **Evidence**
 
-![cURL response headers](screenshots/Screenshot%205.png)
+![cURL response headers](screenshot 5.png)
 
 ### 6. WAF detection with Wafw00f
 
@@ -122,7 +122,7 @@ The captured Wafw00f output identifies ModSecurity (SpiderLabs). Detection does 
 
 **Evidence**
 
-![Wafw00f output](screenshots/Screenshot%206.png)
+![Wafw00f output](screenshot 6.png)
 
 ### 7. DNS enumeration with DNSRecon
 
@@ -134,7 +134,7 @@ Used to enumerate DNS information such as name servers, mail-related records, TX
 
 **Evidence**
 
-![DNSRecon output](screenshots/Screenshot%207.png)
+![DNSRecon output](screenshot 7.png)
 
 ---
 
@@ -154,13 +154,13 @@ The workflow included:
 
 The screenshot below is the network-scan evidence extracted from the submitted Word report.
 
-![Zenmap network scan](screenshots/Screenshot%208.png)
+![Zenmap network scan](screenshot 8.png)
 
 ### 9. Zenmap topology
 
 The screenshot below is the topology evidence extracted from the submitted Word report.
 
-![Zenmap topology](screenshots/Screenshot%209.png)
+![Zenmap topology](screenshot 9.png)
 
 **Reporting note:** The report text contains example `10.0.0.x` host addresses, while the Zenmap evidence appears to show a different `192.168.56.x` lab range. Confirm the exact target subnet and host results from the original Zenmap scan before reporting specific addresses or host counts. Do not treat example addresses as actual findings.
 
